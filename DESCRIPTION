@@ -1,0 +1,19 @@
+Package: MyPackage
+Title: Praise Me (Gives a praise to someone)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sam",
+           family = "Ayrouth",
+           role = c("aut", "cre"),
+           email = "sam13ayrouth@gmail.com")
+Description: The package gives a praise to someone. It can help cheer you up.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    glue
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
